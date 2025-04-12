@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./lib/floatingLabel.css">
+    <script type="module" src="script.js" defer></script>
+    <title>Floating input</title>
+</head>
+<body>
+    <main>
+        <h1 class="big-screen">(Demo) A simple Floating Label 🤧</h1>
+        <h1 class="other-screen">(Demo) Now let's see if the thing works on Small Screens 😭.</h1>
+        <!-- This <div> is the container that is used to control the input's dimensions -->
+        <div>
+            <label for="email" class="floating-label check-validation">
+                <input id="email" type="email" name="" required>
+                <span class="label">Email</span>
+            </label>
+
+            <label for="password" class="floating-label check-validation">
+                <input id="password" type="password" name="" required>
+                <span class="label">Password</span>
+            </label>
+        </div>
+    </main>
+</body>
+</html>
