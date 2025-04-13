@@ -15,7 +15,7 @@
 ### CSS and JS 
  To activate the floating label system::
  - **CSS**: Import ```floatingLabel.css``` into the ```html <head>``` of your app.
- - JavaScript: Import and call the ```js floatingLabelHandler()``` function from ```floatingLabelScript.js``` in a ```html <script type="module">```.
+ - **JavaScript** ``(optional)``: Import and call the ```js floatingLabelHandler()``` function from ```floatingLabelScript.js``` in a ```html <script type="module">```. It's only used to keep the label floating after the input is populated. Otherwise, the text would return to its original position, but behind the **input's value**. 
 
  ### Examples:
 
