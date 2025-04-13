@@ -19,7 +19,7 @@
 
  ### Examples:
 
- 1) HTML
+ 1) **HTML**
 
   ```html
    <div>
@@ -35,7 +35,7 @@
     </div>
   ```
 
-  2) CSS and JS
+  2) **CSS and JS**
 
   ```html
     <link rel="stylesheet" href="style.css">
